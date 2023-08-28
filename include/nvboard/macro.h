@@ -1,3 +1,6 @@
+#ifndef __NVBOARD_MACRO_H__
+#define __NVBOARD_MACRO_H__
+namespace nvboard { // clang-format off
 // macro stringizing
 #define str_temp(x) #x
 #define str(x) str_temp(x)
@@ -15,3 +18,5 @@
 // vga macros
 #define VGA_POS_EDGE(constr) (concat(vga_, constr) == 1 && concat(vga_pre_, constr) == 0)
 #define VGA_NEG_EDGE(constr) (concat(vga_, constr) == 0 && concat(vga_pre_, constr) == 1)
+}
+#endif

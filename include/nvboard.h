@@ -1,12 +1,12 @@
 #ifndef __NVBOARD_H__
 #define __NVBOARD_H__
 
-#include <configs.h>
-#include <constrs.h>
-#include <render.h>
 #include <component.h>
-#include <vga.h>
+#include <constrs.h>
 #include <keyboard.h>
+#include <nvboard/configs.h>
+#include <render.h>
+#include <vga.h>
 
 #define BIND_RATE_RT  true
 #define BIND_RATE_SCR false

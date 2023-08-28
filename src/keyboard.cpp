@@ -1,7 +1,6 @@
+#include <assert.h>
 #include <keyboard.h>
 #include <nvboard.h>
-#include <macro.h>
-#include <assert.h>
 
 KEYBOARD* kb;
 

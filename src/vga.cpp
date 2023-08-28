@@ -1,7 +1,7 @@
-#include <vga.h>
-#include <nvboard.h>
-#include <macro.h>
 #include <assert.h>
+#include <nvboard.h>
+#include <nvboard/macro.h>
+#include <vga.h>
 
 VGA_MODE vga_mod_accepted[NR_VGA_MODE] = {
   [VGA_MODE_640_480] = {

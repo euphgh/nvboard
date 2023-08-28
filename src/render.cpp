@@ -1,13 +1,13 @@
-#include <render.h>
-#include <string>
-#include <map>
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 #include <cassert>
+#include <component.h>
 #include <cstdlib>
 #include <iostream>
-#include <configs.h>
-#include <component.h>
+#include <map>
+#include <nvboard/configs.h>
+#include <render.h>
+#include <string>
 
 SDL_Surface *sbutton_on, *sbutton_off;
 SDL_Surface *sswitch_on, *sswitch_off;
